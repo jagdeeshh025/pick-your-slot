@@ -15,7 +15,7 @@ services:
 
   mongodbservice:
     image: mongo:latest
-    container_name: mongodb
+    container_name: mongo-container
     network_mode: host
     hostname: localhost
     ports:
